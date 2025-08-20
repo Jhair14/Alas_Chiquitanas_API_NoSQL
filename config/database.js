@@ -6,10 +6,10 @@ const config = {
     database: 'alas_chiquitanas',
     user: 'jhair15_SQLLogin_1',
     password: 'dc1frfgvwb',
-    port: 51832,
+    port: 1433,
     options: {
-        encrypt: process.env.DB_ENCRYPT === 'true',
-        trustServerCertificate: process.env.DB_TRUST_SERVER_CERTIFICATE === 'true',
+        encrypt: true,
+        trustServerCertificate: true,
         enableArithAbort: true
     },
     pool: {
