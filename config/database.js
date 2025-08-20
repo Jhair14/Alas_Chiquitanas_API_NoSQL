@@ -2,10 +2,10 @@ const sql = require('mssql');
 require('dotenv').config();
 
 const config = {
-    server: 'DESKTOP-329U4KG\\JHAIR',
+    server: 'alas_chiquitanas.mssql.somee.com',
     database: 'alas_chiquitanas',
-    user: 'jhair',
-    password: '12345678',
+    user: 'jhair15_SQLLogin_1',
+    password: 'dc1frfgvwb',
     port: 51832,
     options: {
         encrypt: process.env.DB_ENCRYPT === 'true',
